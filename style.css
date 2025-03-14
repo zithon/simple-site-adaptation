@@ -1,0 +1,157 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Cantarell", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* first screen */
+.first-screen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(234, 234, 234);
+    padding-left: 21vw;
+}
+
+/* menu */
+.first-screen-menu {
+    display: flex;
+    padding-top: 79px;
+}
+
+.first-screen-menu ul {
+    display: flex;
+    gap: 45px;
+}
+
+.first-screen-menu a {
+    transition: color 0.3s, transform 0.2s;
+    text-decoration: none;
+    color: #000;
+}
+
+.first-screen-menu a:hover {
+    color: aquamarine;
+}
+
+.first-screen-menu a:active {
+    color: darkblue;
+    transform: scale(0.95);
+}
+
+/* text */
+.design-text {
+    font-weight: 500;
+    font-size: 43px;
+    margin-top: 140px;
+}
+
+.first-content-text {
+    font-weight: 400;
+    max-width: 540px;
+    margin-top: 70px;
+    color: #727272;
+}
+
+/* button */
+.button-write {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 225px;
+    height: 65px;
+    text-decoration: none;
+    background-color: #34547A;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button-write:active {
+    background-color: darkblue;
+    transform: scale(0.95);
+}
+
+/* about me */
+.about-me {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-me-first h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.about-me-second p {
+    color: #727272;
+    max-width: 540px;
+    margin: 50px auto 0;
+    font-size: 16px;
+}
+
+/* section with num */
+.numbers {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;
+}
+
+.color-num {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-project {
+    width: 50px;
+    height: 50px;
+}
+
+/* video */
+.video {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.video-code {
+    margin: 57px auto 0;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    height: 151px;
+    width: 100%;
+    background-color: #34547A;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    margin-left: 20vw;
+}
