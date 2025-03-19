@@ -33,12 +33,8 @@ ul {
 /* menuu */
 .first-screen-menu {
     display: flex;
-    max-width: 600px;
+    max-width: 100%;                                                                                                                                                                                                                                                                                                                        
     padding-top: 4.11vw;
-}
-
-.first-screen-menu ul {
-    display: flex;
     gap: 2.34vw;
 }
 
@@ -197,13 +193,9 @@ footer {
     /* menuu */
     .first-screen-menu {
         display: flex;
-        width: 72vw;
-        padding-top: 13.11vw;
-    }
-
-    .first-screen-menu ul {
-        font-size: 3.3vw;
-
+        font-size: 3.5vw;
+        gap: 3.5vw;
+        margin-top: 4vw;
     }
 
     .first-screen-menu a {
@@ -284,35 +276,39 @@ footer {
     
     /* section with num */
     .numbers {
-        display: flex;
-        gap: 15vw;
-        overflow-x: scroll;
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 5vw; 
         justify-content: center;
         align-items: center;
         margin-top: 25vw;
         width: 100%;
-        height: 65vw;
+        height: 45vw;
         background-color: #34547A;
+
     }
     
     .color-num {
         color: white;
         display: flex;
         align-items: center;
-        gap: 5vw;
+        justify-content: center;
+        gap: 2vw;
     }
 
     .color-num h2{
-        font-size: 7.5vw;
+        font-size: 5vw;
     }
 
     .color-num p {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     
     .img-project {
-        width: 15vw;
-        height: 15vw;
+        width: 10vw;
+        height: 10vw;
     }
     
     /* video */
