@@ -1,0 +1,39 @@
+
+
+/* ================= Header ================= */
+.first-screen {
+    font-size: 0.87vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 37.5vw;
+    background-color: rgb(234, 234, 234);
+    padding-left: 21.5vw;
+}
+
+/* Navigation Menu */
+.first-screen-menu {
+    display: flex;
+    max-width: 100%;                                                                                                                                                                                                                                                                                                                        
+    padding-top: 4.11vw;
+    gap: 2.34vw;
+}
+
+.first-screen-menu a {
+    transition: color 0.3s, transform 0.2s;
+    text-decoration: none;
+    color: #000;
+}
+
+.first-screen-menu a:hover {
+    &:hover {
+        color: aquamarine;
+    }
+}
+
+.first-screen-menu a:active {
+    &:active {
+        color: darkblue;
+        transform: scale(0.95);
+    }
+}

@@ -1,0 +1,32 @@
+@use "_variables" as *;
+
+@mixin flex-center($direction: row, $gap: 0) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+    gap: $gap;
+}
+
+@mixin button($bg-color, $font-size) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+    background-color: $bg-color;
+    font-size: $font-size;
+    color: #FFFFFF;
+
+    &:active {
+        background-color: $active-color;
+        transform: scale(0.95);
+    }
+}
+
+@mixin text-block($color, $font-size, $max-width: auto, $margin: 0) {
+    color: $color;
+    font-size: $font-size;
+    max-width: $max-width;
+    margin: $margin;
+}
